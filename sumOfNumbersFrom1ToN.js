@@ -8,12 +8,23 @@ let count = 1;
 //     console.log(sum)
 // }
 
-while(count <= n){
+while (count <= n) {
     sum += count;
     count++
 }
 
 console.log(`Sum of numbers from 1 to ${n} = ${sum} `)
+
+// Pseudo Code
+
+// input n
+// count = 1, sum = 0
+// for, while count <= n
+//           sum += count
+//               if while
+//                  count ++
+// Print sum
+// Exit
 
 
 
